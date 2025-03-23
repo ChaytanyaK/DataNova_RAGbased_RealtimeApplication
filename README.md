@@ -41,15 +41,17 @@ pip install pyngrok==7.2.2
 pip install PyMuPDF==1.24.0
 pip install chromadb==0.5.23
 
-
+```
 🔐 API Credentials
 Create a file named chatgpt_api_credentials.yml in the project root with the following structure:
 
 yaml
-Copy
-Edit
+
+```bash
 openai_key: "your-openai-api-key"
 ngrok_key: "your-ngrok-auth-token"
+```
+
 🚨 Do not share this file or commit it to version control.
 
 ▶️ Running the App

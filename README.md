@@ -81,12 +81,15 @@ Answers are streamed back to the user in real-time using Chainlit’s UI capabil
 
 📁 Project Structure
 graphql
-Copy
-Edit
+```bash
+
 ├── app.py                         # Main app file with LangChain + Chainlit logic
 ├── chatgpt_api_credentials.yml   # API keys for OpenAI and ngrok (excluded from git)
 ├── README.md                     # You are here!
 └── RAG_Chatbot_App_with_ChatGPT,_LangChain_and_Chainlit.ipynb  # Jupyter notebook prototype
+
+```
+
 📊 Example Use Cases
 Internal document QA systems
 
@@ -95,17 +98,6 @@ Legal or policy document search assistants
 Research paper summarizers
 
 AI-powered customer support for PDF knowledge bases
-
-🧪 Future Enhancements
-🔐 Add user authentication
-
-📂 Support for additional file formats (Word, Excel)
-
-🗃️ Persistent vector storage
-
-📈 Logging and analytics dashboard
-
-🧩 Integration with more LLM providers (Anthropic, Mistral, etc.)
 
 📄 License
 MIT License. See LICENSE for details.
